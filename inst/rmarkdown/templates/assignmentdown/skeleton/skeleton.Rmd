@@ -1,0 +1,40 @@
+---
+title: "Untitled"
+author: "Your name"
+date: 
+output:
+  bookdown::pdf_document2:
+    toc: TRUE
+    number_sections: FALSE
+  bookdown::html_document2: 
+documentclass: article
+classoption: a4paper
+header-includes:
+  - \usepackage[margin = 8pt]{subfig}
+  - \captionsetup[figure]{labelfont={bf},textfont={it}}
+  - \captionsetup[table]{labelfont={bf},textfont={it}}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      message = FALSE,
+                      warning = FALSE,
+                      fig.align = "center")
+```
+
+# Preamble
+
+```{r preamble-packages}
+library(tidyverse)
+```
+
+```{r, echo = FALSE}
+nicetab <- partial(knitr::kable,
+                   linesep = "",
+                   digits = 3,
+                   booktabs = TRUE)
+```
+
+# Question 1
+
+## (a)

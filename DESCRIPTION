@@ -1,0 +1,10 @@
+Package: assignmentdown
+Type: Package
+Title: A template for statistics assessments.
+Version: 0.1.0
+Author: Samuel Gardiner
+Maintainer: Samuel Gardiner <sam.gardiner+github@gmail.com>
+Description: 
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
