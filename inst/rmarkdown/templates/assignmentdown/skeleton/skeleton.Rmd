@@ -13,6 +13,7 @@ header-includes:
   - \usepackage[margin = 8pt]{subfig}
   - \captionsetup[figure]{labelfont={bf},textfont={it}}
   - \captionsetup[table]{labelfont={bf},textfont={it}}
+  - \usepackage[a4paper,left=3cm,right=3cm,top=3cm,bottom=3cm]{geometry}
 ---
 
 ```{r setup, include=FALSE}
