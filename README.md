@@ -9,4 +9,4 @@ This is a simple template for my usual statistics assignment customisations.
 
 # Installation
 
-`devtools::install_github("persimoirre/assignmentdown")`
+`devtools::install_github("gardiners/assignmentdown")`
